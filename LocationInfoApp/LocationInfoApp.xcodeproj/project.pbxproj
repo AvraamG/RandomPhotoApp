@@ -13,6 +13,7 @@
 		FBF9B37A28230212003ECDF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF9B37928230212003ECDF5 /* Preview Assets.xcassets */; };
 		FBF9B38328230441003ECDF5 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = FBF9B38128230441003ECDF5 /* locations.json */; };
 		FBF9B38428230441003ECDF5 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = FBF9B38228230441003ECDF5 /* tips.json */; };
+		FBF9B38628245CC2003ECDF5 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9B38528245CC2003ECDF5 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FBF9B37B28230212003ECDF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBF9B38128230441003ECDF5 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		FBF9B38228230441003ECDF5 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		FBF9B38528245CC2003ECDF5 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FBF9B3742823020F003ECDF5 /* ContentView.swift */,
 				FBF9B37628230212003ECDF5 /* Assets.xcassets */,
 				FBF9B37B28230212003ECDF5 /* Info.plist */,
+				FBF9B38528245CC2003ECDF5 /* Location.swift */,
 				FBF9B38128230441003ECDF5 /* locations.json */,
 				FBF9B38228230441003ECDF5 /* tips.json */,
 				FBF9B37828230212003ECDF5 /* Preview Content */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBF9B3752823020F003ECDF5 /* ContentView.swift in Sources */,
+				FBF9B38628245CC2003ECDF5 /* Location.swift in Sources */,
 				FBF9B3732823020F003ECDF5 /* LocationInfoAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

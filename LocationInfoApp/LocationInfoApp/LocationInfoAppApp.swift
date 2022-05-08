@@ -11,7 +11,11 @@ import SwiftUI
 struct LocationInfoAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //Covers the top gap with a navigation Bar.
+            NavigationView{
+                ContentView(location: Location.example)
+            }
+            
         }
     }
 }
